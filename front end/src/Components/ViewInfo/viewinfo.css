@@ -1,0 +1,19 @@
+.main-body .center-body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Arial";
+}
+
+.main-body .center-body .center-body-head{
+    padding-top: 30px;
+    position: relative;
+    font-size: larger;
+    border-bottom: 1px solid #333;
+}
+
+.main-body .center-body .body-middle{
+    width: 99%;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
