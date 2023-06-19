@@ -1,0 +1,64 @@
+.App-logo {
+    height: 13vmin;
+    pointer-events: none;
+  }
+
+.main_header{
+  background-color: #1d1d1d;
+  color: aliceblue;
+  font-family: "Arial";
+}
+
+.main_header .center_header{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  padding: 3px 0;
+}
+
+.main_header .center_header .logo_side{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.main_header .center_header .right_side{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.main_header .center_header .right_side .menu_set ul {
+  list-style: none;
+  display: flex;
+}
+
+.main_header .center_header .right_side .name_set ul{
+  list-style: none;
+  display: flex;
+}
+
+.main_header .center_header .right_side .menu_set ul li a{
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  padding: 0 9px;
+  font-size: 15px;
+  transition: all 0.1s ease-in-out;
+}
+
+.main_header .center_header .right_side .menu_set ul li a:hover{
+  color: aliceblue;
+}
+
+.main_header .center_header .right_side .name_set ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 15px;
+  transition: all 0.1s ease-in-out;
+  font-weight: 500;
+}
+
+.main_header .center_header .right_side .name_set ul li a:hover{
+  color: rgb(155, 155, 155);
+}

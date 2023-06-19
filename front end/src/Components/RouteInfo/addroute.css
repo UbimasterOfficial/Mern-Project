@@ -1,0 +1,46 @@
+.main-body .center-body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Arial";
+}
+
+.main-body .center-body .center-body-head{
+    padding-top: 30px;
+    position: relative;
+    font-size: larger;
+    border-bottom: 1px solid #333;
+}
+
+.main-body .center-body .body-middle{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+.main-body .center-body .body-timesec{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-body .center-body .body-button{
+    clear: both;
+    position: relative;
+    top: 40px;
+    justify-content: flex-end;
+}
+
+.main-body .center-body .body-button .button_handle{
+    justify-content: flex-end;
+
+}
+
+.main-body .center-body .body-button ul{
+    list-style: none;
+    display: flex;
+}
+
+.main-body .center-body .body-button ul li{
+    padding: 0 10px;
+
+}
